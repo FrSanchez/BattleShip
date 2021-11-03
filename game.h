@@ -5,4 +5,4 @@
 
 void initBoard(char board[][ROWS]);
 void printBoard(char board[][ROWS]);
-
+COORD readCoordinates();

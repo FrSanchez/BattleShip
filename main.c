@@ -21,6 +21,8 @@ int main(int argc, char** argv)
     printBoard(player1);
     printBoard(player2);
     
+    COORD p1 = readCoordinates();
+    printf("Coords to use: (%d, %d)", p1.X, p1.Y);
     // printStatusLine("Press any key to exit", Size);
     printf("Press any key to exit");
     char ch = getchar();
